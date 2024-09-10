@@ -1,0 +1,15 @@
+Compilation Flow:
+
+Java Program ----------> Java Byte Code ----------> JVM ----------> Output
+[.java file]  compiler    [.class file]
+
+Class: It is a BluePrint used to define Objects
+       It can contain Variables, Methods, Interfaces, Member Class, Constructors
+
+
+Car Maruthi = new Car();
+Object Declaration -> Car Maruthi
+Memory Allocation -> new Car();
+
+Compile Time Polymorphism / Static Binding / Early Binding - Overloading
+Run Time Polymorphism / Dynamic Binding / Late Binding - Overriding
