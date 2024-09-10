@@ -31,5 +31,12 @@ public class OverloadingMain {
         OverloadingMain o = new OverloadingMain("Nikesh", 25);
         System.out.println(o);
         o.m1(); System.out.println(o.m1(7) + ", " + o.m1(13,7) + ", " + o.m1(13.3,7.8) );
+
+        // Operator Overloading [Same + operator acting as different in different scenerios]
+        System.out.println(13 + 7); // 30
+        System.out.println("13" + 7); // 137
+        System.out.println("Hello" + " World! " + 13 + 7); // Hello World! 137
+        System.out.println(13 + 7 + " Hello " + 11 + " World! " + 1 + 5); // 20 Hello 11 World! 15
+        System.out.println(13 + 7 + " Hello " + 11 + " World! " + ( 1 + 5 ) ); // 20 Hello 11 World! 6
     }
 }
