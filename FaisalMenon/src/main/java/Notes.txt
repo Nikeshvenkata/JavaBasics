@@ -13,3 +13,17 @@ Memory Allocation -> new Car();
 
 Compile Time Polymorphism / Static Binding / Early Binding - Overloading
 Run Time Polymorphism / Dynamic Binding / Late Binding - Overriding
+
+final variables, Once we initialize them we can not change them.
+final methods - These methods cannot be overridden in case of inheritance.
+final class - we cannot extend this class with other class (Inheritance),
+              Variables inside final class are not final,
+              But since inheritance is not possible, so we can't extend this class
+              Hence methods in final class can be considered as final methods only.
+
+OOPS - Object-Oriented Programming
+    - Abstraction: It can be achieved using Abstract classes, Abstract Methods, Interfaces.
+    - Encapsulation: It can be achieved by making methods, variables as private and can access data using Getters, Setters
+    - Inheritance: Getting the properties of Parent class by extending to the child Class.
+    - Polymorphism - Can be achieved using overloading & overriding [Method, Constructor, Operator]
+
